@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include<time.h>
 
 void title(){
 	system("title Crack The Safe");
@@ -115,6 +116,7 @@ void menu(){
 
 int main(){
 	title();
+	srand(time(NULL));
 	menu();
 	system("pause");
 	return 0;
